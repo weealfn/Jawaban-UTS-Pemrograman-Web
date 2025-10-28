@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skill {
+  background-color: #e9ecef;
+  color: #333;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}
